@@ -61,6 +61,7 @@
             android:id="@+id/getStartedButton" app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintBottom_toBottomOf="parent" android:textColor="@color/colorAccent"
-            android:background="@drawable/swoosh_button"/>
+            android:background="@drawable/swoosh_button" android:layout_marginStart="16dp"
+            android:layout_marginBottom="16dp" android:layout_marginEnd="16dp"/>
 
 </android.support.constraint.ConstraintLayout>
